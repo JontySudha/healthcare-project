@@ -9,53 +9,102 @@
 <body>
 
 <header>
-  <h1>HealthCare Plus</h1>
+  <div class="logo">HealthCare Plus</div>
+
   <nav>
     <a href="#">Home</a>
     <a href="#services">Services</a>
+    <a href="#about">About</a>
     <a href="#appointment">Appointment</a>
   </nav>
 </header>
 
 <section class="hero">
-  <h2>Your Health, Our Priority</h2>
-  <p>Modern healthcare services with trusted doctors.</p>
+
+  <div class="hero-content">
+
+    <h1>Your Health, Our Priority</h1>
+
+    <p>
+      Trusted healthcare services with experienced doctors
+      and modern medical technology.
+    </p>
+
+    <a href="#appointment" class="hero-btn">
+      Book Appointment
+    </a>
+
+  </div>
+
 </section>
 
-<section id="services" class="services">
-  <div class="card">
-    <h3>General Checkup</h3>
-    <p>Complete health monitoring services.</p>
+<section id="services" class="services-section">
+
+  <h2>Our Services</h2>
+
+  <div class="services-grid">
+
+    <div class="card">
+      <h3>General Checkup</h3>
+      <p>Complete health monitoring and consultation.</p>
+    </div>
+
+    <div class="card">
+      <h3>Emergency Care</h3>
+      <p>24/7 emergency medical support available.</p>
+    </div>
+
+    <div class="card">
+      <h3>Laboratory</h3>
+      <p>Advanced pathology and diagnostic testing.</p>
+    </div>
+
+    <div class="card">
+      <h3>Online Consultation</h3>
+      <p>Consult doctors remotely from your home.</p>
+    </div>
+
   </div>
 
-  <div class="card">
-    <h3>Emergency Care</h3>
-    <p>24/7 emergency support available.</p>
-  </div>
+</section>
 
-  <div class="card">
-    <h3>Laboratory</h3>
-    <p>Advanced pathology and diagnostics.</p>
-  </div>
+<section id="about" class="about">
+
+  <h2>About Us</h2>
+
+  <p>
+    HealthCare Plus is dedicated to delivering modern,
+    affordable, and trusted healthcare services with
+    experienced doctors and advanced technology.
+  </p>
+
 </section>
 
 <section id="appointment" class="appointment">
 
-  <h2>Book Appointment</h2>
+  <div class="appointment-box">
 
-  <form id="appointmentForm">
+    <h2>Book Appointment</h2>
 
-    <input type="text" id="name" placeholder="Enter Name" required>
+    <form id="appointmentForm">
 
-    <input type="email" id="email" placeholder="Enter Email" required>
+      <input type="text" id="name" placeholder="Enter Name" required>
 
-    <input type="date" id="date" required>
+      <input type="email" id="email" placeholder="Enter Email" required>
 
-    <button type="submit">Book Now</button>
+      <input type="date" id="date" required>
 
-  </form>
+      <button type="submit">Book Now</button>
+
+    </form>
+
+  </div>
 
 </section>
+
+<footer>
+  <p>© 2026 HealthCare Plus. All Rights Reserved.</p>
+</footer>
 
 <script src="script.js"></script>
 
